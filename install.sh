@@ -24,8 +24,9 @@ dockutil --add '/Applications/Sublime Text.app'
 echo Disabling Handoff
 sudo -u $(whoami) defaults write "$HOME/Library/Preferences/ByHost/com.apple.coreservices.useractivityd.plist" ActivityAdvertisingAllowed -bool no
 sudo -u $(whoami) defaults write "$HOME/Library/Preferences/ByHost/com.apple.coreservices.useractivityd.plist" ActivityReceivingAllowed -bool no
+
 echo Diable recent items in Dock
 defaults write com.apple.dock show-recents -bool FALSE
 
-echo Updateting Mac
+echo Updating Mac
 sudo softwareupdate -i -a
