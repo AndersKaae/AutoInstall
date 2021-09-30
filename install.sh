@@ -28,4 +28,4 @@ echo Diable recent items in Dock
 defaults write com.apple.dock show-recents -bool FALSE
 
 echo Updateting Mac
-sudo softwareupdate -l
+sudo softwareupdate -i -a
