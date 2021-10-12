@@ -8,6 +8,10 @@ brew install dockutil
 brew install --cask slack
 brew install --cask firefox
 
+echo Remove big default apps
+sudo rm -rf /Applications/GarageBand.app
+sudo rm -rf /Applications/iMovie.app
+
 echo Remove dock items
 dockutil --remove 'Safari'
 dockutil --remove 'Messages'
