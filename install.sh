@@ -4,7 +4,12 @@ echo Installing Brew
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"
 brew install --cask sublime-text
 brew install --cask google-chrome
-brew install dockutil
+
+# Docutil is failing because no updated. When the fix stop working just install the regular way.
+#brew install dockutil
+brew tap lotyp/homebrew-formulae
+brew install lotyp/formulae/dockutil
+
 brew install --cask slack
 brew install --cask firefox
 
