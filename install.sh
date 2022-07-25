@@ -2,6 +2,10 @@
 echo Installing Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> $HOME/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"
+# Needed commands for the M1 mac
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> $HOME/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 brew install --cask sublime-text
 brew install --cask google-chrome
 
