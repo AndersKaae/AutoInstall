@@ -19,6 +19,14 @@ brew install lotyp/formulae/dockutil
 
 brew install --cask slack
 brew install --cask firefox
+brew install wget
+
+echo Setting Desktop Image
+cd /Library
+sudo wget https://raw.githubusercontent.com/AndersKaae/AutoInstall/master/image.png
+cd $HOME
+sudo wget https://raw.githubusercontent.com/AndersKaae/AutoInstall/master/changewallpaper.scpt
+osascript changewallpaper.scpt
 
 echo Remove big default apps
 sudo rm -rf /Applications/GarageBand.app
