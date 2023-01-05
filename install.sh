@@ -46,6 +46,7 @@ dockutil --remove 'System Preferences'
 dockutil --remove 'Keynote'
 dockutil --remove 'Numbers'
 dockutil --remove 'Pages'
+dockutil --remove 'Freeform'
 dockutil --add '/Applications/Google Chrome.app'
 dockutil --add '/Applications/Sublime Text.app'
 
