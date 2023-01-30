@@ -11,6 +11,7 @@ brew upgrade
 
 brew install --cask sublime-text
 brew install --cask google-chrome
+brew install --cask clickup
 
 # Docutil is failing because no updated. When the fix stop working just install the regular way.
 #brew install dockutil
