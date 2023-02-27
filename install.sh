@@ -51,7 +51,7 @@ dockutil --remove 'Freeform'
 dockutil --remove 'Contacts'
 dockutil --add '/Applications/Google Chrome.app'
 dockutil --add '/Applications/Sublime Text.app'
-dockutil --add '/Applications/Sublime Text.app'
+dockutil --add '/Applications/Slack.app'
 
 echo Disabling Handoff
 sudo -u $(whoami) defaults write "$HOME/Library/Preferences/ByHost/com.apple.coreservices.useractivityd.plist" ActivityAdvertisingAllowed -bool no
