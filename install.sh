@@ -48,7 +48,9 @@ dockutil --remove 'Keynote'
 dockutil --remove 'Numbers'
 dockutil --remove 'Pages'
 dockutil --remove 'Freeform'
+dockutil --remove 'Contacts'
 dockutil --add '/Applications/Google Chrome.app'
+dockutil --add '/Applications/Sublime Text.app'
 dockutil --add '/Applications/Sublime Text.app'
 
 echo Disabling Handoff
