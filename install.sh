@@ -62,3 +62,11 @@ defaults write com.apple.dock show-recents -bool FALSE
 
 echo Updating Mac
 sudo softwareupdate -i -a
+
+echo Creating Admin User
+sudo dscl . -create /Users/admin
+sudo dscl . -create /Users/admin UserShell /bin/bash
+sudo dscl . -create /Users/admin RealName “Admin”
+sudo dscl . -create /Users/admin PrimaryGroupID 1000
+sudo dscl . -create /Users/admin NFSHomeDirectory /Local/Users/admin
+sudo dscl / -append /Groups/admin GroupMembership admin
