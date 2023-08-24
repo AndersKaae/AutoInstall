@@ -21,6 +21,7 @@ brew install lotyp/formulae/dockutil
 brew install --cask slack
 brew install --cask firefox
 brew install wget
+brew install aircall
 
 echo Setting Desktop Image
 cd /Library
