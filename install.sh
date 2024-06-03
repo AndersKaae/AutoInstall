@@ -22,6 +22,7 @@ brew install --cask slack
 brew install --cask firefox
 brew install wget
 brew install aircall
+brew install discord
 
 echo Setting Desktop Image
 cd /Library
