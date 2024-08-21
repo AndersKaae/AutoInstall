@@ -20,6 +20,7 @@ brew install lotyp/formulae/dockutil
 
 brew install --cask slack
 brew install --cask firefox
+brew install --cask microsoft-teams
 brew install wget
 brew install aircall
 brew install discord
