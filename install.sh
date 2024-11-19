@@ -12,6 +12,7 @@ brew upgrade
 brew install --cask sublime-text
 brew install --cask google-chrome
 brew install --cask clickup
+brew install --cask dotnet-sdk
 
 # Docutil is failing because no updated. When the fix stop working just install the regular way.
 #brew install dockutil
@@ -22,7 +23,6 @@ brew install --cask slack
 brew install --cask firefox
 brew install --cask microsoft-teams
 brew install wget
-brew install aircall
 brew install discord
 
 echo Setting Desktop Image
