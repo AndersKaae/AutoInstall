@@ -54,7 +54,7 @@ dockutil --remove 'Freeform'
 dockutil --remove 'Contacts'
 dockutil --add '/Applications/Google Chrome.app'
 dockutil --add '/Applications/Sublime Text.app'
-dockutil --add '/Applications/Slack.app'
+dockutil --add '/Applications/Discord.app'
 killall Dock
 
 echo Disabling Handoff
