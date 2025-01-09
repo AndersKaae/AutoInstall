@@ -24,6 +24,12 @@ brew install --cask firefox
 brew install --cask microsoft-teams
 brew install wget
 brew install discord
+brew install duti
+brew install dotnet
+brew install dotnet@8
+
+echo Setting default app for shell scripts to Terminal
+duti -s com.apple.Terminal public.shell-script all
 
 echo Setting Desktop Image
 cd /Library
