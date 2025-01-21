@@ -13,6 +13,7 @@ brew install --cask sublime-text
 brew install --cask google-chrome
 brew install --cask clickup
 brew install --cask dotnet-sdk
+brew install --cask keepingyouawake
 
 # Docutil is failing because no updated. When the fix stop working just install the regular way.
 #brew install dockutil
