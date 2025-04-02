@@ -26,6 +26,7 @@ brew install --cask microsoft-teams
 brew install wget
 brew install discord
 brew install duti
+brew install node
 brew install dotnet
 brew install dotnet@8
 
