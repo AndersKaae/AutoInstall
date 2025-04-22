@@ -14,6 +14,7 @@ brew install --cask google-chrome
 brew install --cask clickup
 brew install --cask dotnet-sdk
 brew install --cask keepingyouawake
+brew install --cask ghostty
 
 # Docutil is failing because no updated. When the fix stop working just install the regular way.
 #brew install dockutil
