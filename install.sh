@@ -25,7 +25,6 @@ brew install --cask slack
 brew install --cask firefox
 brew install --cask microsoft-teams
 brew install wget
-brew install discord
 brew install duti
 brew install node
 brew install dotnet
@@ -63,7 +62,7 @@ dockutil --remove 'Freeform'
 dockutil --remove 'Contacts'
 dockutil --add '/Applications/Google Chrome.app'
 dockutil --add '/Applications/Sublime Text.app'
-dockutil --add '/Applications/Discord.app'
+dockutil --add '/Applications/Slack.app'
 killall Dock
 
 echo Disabling Handoff
